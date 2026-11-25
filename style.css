@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.ínicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b50064;
+    color: #fafafa;
+    padding: 20px 40px;
+    font-family:;
+}
+
+.lista {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.link {
+    color: #fafafa;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.link:hover {
+    background-color:#7d0149;
+    border-radius: 8px;
+}
+
+.lista-item {
+    list-style: none;
+}
+
+.pagina-cardapio {
+    display: flex;
+    color: #b50064;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color: #b50064;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.link {
+    color: #fafafa;
+}
+
+.cardapio {
+    color: #b50064;
+}
+
+.cards {
+    display: flex;
+    padding: 30px;
+    color: black;
+    width: 33%;
+    gap: 8px;
+    background-color: #edbbd8;
+    border-radius: 10px;
+    align-items: center;
+    
+}
